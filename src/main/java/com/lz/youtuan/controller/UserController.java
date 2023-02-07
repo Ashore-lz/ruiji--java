@@ -34,10 +34,10 @@ public class UserController {
         if(StringUtils.isNotBlank(phone)){
             //生成随机验证码
             String code = ValidateCodeUtils.generateValidateCode(4).toString();
-            log.info("code={}",code);
+            log.info("code={}",code);  //没调用阿里云服务，控制台输出验证码登录
 
             //调用阿里云的短信服务API完成发送短信
-            //SMSUtils.sendMessage("有团外卖","SMS_269125300",phone,code);  要花钱
+            //SMSUtils.sendMessage("阿里云签名","自己建立的模板",phone,code);  要花钱
 
             //将生成的验证码存到Session
             session.setAttribute(phone,code);
