@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="项目的demo 后续会进行优化" />
+    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="项目的demo 后续会进行优化">
+      <change afterPath="$PROJECT_DIR$/.idea/ruiji--java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lz/test/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lz/test/SpringDataRedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/utils/SMSUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/utils/SMSUtils.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +57,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2L2AtTadNbTe5dCR3Q1mZv5Cmw9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,14 +71,23 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -84,7 +107,7 @@
       <recent name="com.lz.youtuan.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.YoutuanApplication">
+  <component name="RunManager" selected="JUnit.SpringDataRedisTest.testCommon">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -96,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UploadFileTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="youtuanwm" />
+    <configuration name="SpringDataRedisTest.testCommon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ruiji--java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.lz.test.*" />
@@ -105,33 +128,91 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.lz.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lz.test.UploadFileTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testCommon" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YoutuanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="youtuanwm" />
+    <configuration name="SpringDataRedisTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ruiji--java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.lz.youtuan.*" />
+          <option name="PATTERN" value="com.lz.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lz.youtuan.YoutuanApplication" />
+      <option name="PACKAGE_NAME" value="com.lz.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testHash" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringDataRedisTest.testList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ruiji--java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ruiji--java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.testZset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ruiji--java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lz.test" />
+      <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="testZset" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.SpringDataRedisTest.testHash" />
+      <item itemvalue="JUnit.SpringDataRedisTest.testList" />
+      <item itemvalue="JUnit.SpringDataRedisTest.testSet" />
+      <item itemvalue="JUnit.SpringDataRedisTest.testZset" />
+      <item itemvalue="JUnit.SpringDataRedisTest.testCommon" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.YoutuanApplication" />
-        <item itemvalue="JUnit.UploadFileTest.test1" />
-        <item itemvalue="Spring Boot.YoutuanApplication" />
-        <item itemvalue="JUnit.UploadFileTest.test1" />
-        <item itemvalue="Spring Boot.YoutuanApplication" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testCommon" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testZset" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testSet" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testList" />
+        <item itemvalue="JUnit.SpringDataRedisTest.testHash" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +227,8 @@
       <workItem from="1675059021426" duration="41509000" />
       <workItem from="1675305312912" duration="67113000" />
       <workItem from="1675751871524" duration="1381000" />
+      <workItem from="1675834629335" duration="363000" />
+      <workItem from="1675835033085" duration="7402000" />
     </task>
     <task id="LOCAL-00001" summary="项目的demo 后续会进行优化">
       <created>1675751607426</created>
