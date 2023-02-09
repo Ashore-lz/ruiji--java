@@ -22,6 +22,9 @@ spring:
         max-wait: 1ms  #连接池最大阻塞时间
         max-idle: 4  #连接池最大空闲连接
         min-idle: 0  #连接池中最小空闲连接
+  cache:
+    redis:
+      time-to-live: 1800000  #设置缓存过期时间
 mybatis-plus:
   configuration:
     #在映射实体或者属性时，将数据库中表名和字段名中的下划线去掉，按照驼峰命名法映射

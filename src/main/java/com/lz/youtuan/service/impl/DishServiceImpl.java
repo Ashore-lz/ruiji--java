@@ -2,9 +2,12 @@ package com.lz.youtuan.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.lz.youtuan.common.CustomException;
 import com.lz.youtuan.dto.DishDto;
 import com.lz.youtuan.entity.Dish;
 import com.lz.youtuan.entity.DishFlavor;
+import com.lz.youtuan.entity.Setmeal;
+import com.lz.youtuan.entity.SetmealDish;
 import com.lz.youtuan.mapper.DishMapper;
 import com.lz.youtuan.service.DishFlavorService;
 import com.lz.youtuan.service.DishService;
@@ -109,6 +112,27 @@ public class DishServiceImpl extends ServiceImpl<DishMapper, Dish> implements Di
             dish.setStatus(1);
         }
         this.updateById(dish);
+    }
+
+    @Override
+    public void removeWithDish(List<Long> ids) {
+        //查询菜品状态  确认是否可以删除
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.in(Dish::getId, ids);
+        queryWrapper.eq(Dish::getStatus, 1);
+        int count = this.count(queryWrapper);
+        if(count>0){
+            throw new CustomException("菜品正在售卖，不能删除");
+        }
+
+        //可以删除 先删除dish
+        this.removeByIds(ids);
+
+        //删除关系表中数据  dish_flavor
+        LambdaQueryWrapper<DishFlavor> queryWrapper1 = new LambdaQueryWrapper<>();
+        queryWrapper1.in(DishFlavor::getDishId, ids);
+        //删除关系表中的数据
+        dishFlavorService.remove(queryWrapper1);
     }
 
 }

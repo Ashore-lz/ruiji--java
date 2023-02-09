@@ -20,6 +20,11 @@
     </properties>
 
     <dependencies>
+        <!-- 使用Spring Cache-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-cache</artifactId>
+        </dependency>
         <!--springboot 中Redis-->
         <dependency>
             <groupId>org.springframework.boot</groupId>

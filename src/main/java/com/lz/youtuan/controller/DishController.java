@@ -134,15 +134,13 @@ public class DishController {
      * @return
      */
     @DeleteMapping
-    public R<String> delete(Long[] ids){
-        for(Long id:ids) {
-            //删除dish数据
-            dishService.removeById(id);
-            //删除id对应的口味
-            LambdaQueryWrapper<DishFlavor> queryWrapper = new LambdaQueryWrapper<>();
-            queryWrapper.eq(DishFlavor::getDishId, id);
-            dishFlavorService.remove(queryWrapper);
-        }
+    public R<String> delete(@RequestParam List<Long> ids){
+        dishService.removeWithDish(ids);
+
+        //删除需要清理Redis缓存，清理所有菜品信息 因为没有传CategoryId 无法精准删除
+        Set keys = redisTemplate.keys("dish_*");
+        redisTemplate.delete(keys);
+
         return R.success("删除成功");
     }
 

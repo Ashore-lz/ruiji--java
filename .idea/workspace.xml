@@ -4,10 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="项目的demo 后续会进行优化">
+    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="使用Redis缓存短信验证码和菜品信息">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/YoutuanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/YoutuanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/common/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/SetmealController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/DishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/YoutuanApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/YoutuanApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/common/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/common/R.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/DishController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/SetmealController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/DishService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/impl/DishServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +220,7 @@
       <workItem from="1675305312912" duration="67113000" />
       <workItem from="1675751871524" duration="1381000" />
       <workItem from="1675834629335" duration="363000" />
-      <workItem from="1675835033085" duration="9035000" />
-      <workItem from="1675908236430" duration="3873000" />
+      <workItem from="1675835033085" duration="7402000" />
     </task>
     <task id="LOCAL-00001" summary="项目的demo 后续会进行优化">
       <created>1675751607426</created>
@@ -223,14 +236,7 @@
       <option name="project" value="LOCAL" />
       <updated>1675754090393</updated>
     </task>
-    <task id="LOCAL-00003" summary="Redis的五大数据类型的使用测试">
-      <created>1675842930045</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1675842930045</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,8 +268,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目的demo 后续会进行优化" />
-    <MESSAGE value="Redis的五大数据类型的使用测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redis的五大数据类型的使用测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目的demo 后续会进行优化" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
