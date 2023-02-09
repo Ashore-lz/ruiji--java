@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="项目的demo 后续会进行优化">
-      <change afterPath="$PROJECT_DIR$/.idea/ruiji--java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lz/test/JedisTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/lz/test/SpringDataRedisTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/utils/SMSUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/utils/SMSUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/DishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="b1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -107,18 +99,7 @@
       <recent name="com.lz.youtuan.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringDataRedisTest.testCommon">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.YoutuanApplication">
     <configuration name="SpringDataRedisTest.testCommon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ruiji--java" />
       <extension name="coverage">
@@ -130,22 +111,6 @@
       <option name="PACKAGE_NAME" value="com.lz.test" />
       <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
       <option name="METHOD_NAME" value="testCommon" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDataRedisTest.testHash" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ruiji--java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lz.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lz.test" />
-      <option name="MAIN_CLASS_NAME" value="com.lz.test.SpringDataRedisTest" />
-      <option name="METHOD_NAME" value="testHash" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,20 +164,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YoutuanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ruiji--java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.youtuan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lz.youtuan.YoutuanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.SpringDataRedisTest.testHash" />
       <item itemvalue="JUnit.SpringDataRedisTest.testList" />
       <item itemvalue="JUnit.SpringDataRedisTest.testSet" />
       <item itemvalue="JUnit.SpringDataRedisTest.testZset" />
       <item itemvalue="JUnit.SpringDataRedisTest.testCommon" />
+      <item itemvalue="Spring Boot.YoutuanApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.YoutuanApplication" />
         <item itemvalue="JUnit.SpringDataRedisTest.testCommon" />
         <item itemvalue="JUnit.SpringDataRedisTest.testZset" />
         <item itemvalue="JUnit.SpringDataRedisTest.testSet" />
         <item itemvalue="JUnit.SpringDataRedisTest.testList" />
-        <item itemvalue="JUnit.SpringDataRedisTest.testHash" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +206,8 @@
       <workItem from="1675305312912" duration="67113000" />
       <workItem from="1675751871524" duration="1381000" />
       <workItem from="1675834629335" duration="363000" />
-      <workItem from="1675835033085" duration="7402000" />
+      <workItem from="1675835033085" duration="9035000" />
+      <workItem from="1675908236430" duration="3873000" />
     </task>
     <task id="LOCAL-00001" summary="项目的demo 后续会进行优化">
       <created>1675751607426</created>
@@ -244,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675754090393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Redis的五大数据类型的使用测试">
+      <created>1675842930045</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675842930045</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +262,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目的demo 后续会进行优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目的demo 后续会进行优化" />
+    <MESSAGE value="Redis的五大数据类型的使用测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="Redis的五大数据类型的使用测试" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
