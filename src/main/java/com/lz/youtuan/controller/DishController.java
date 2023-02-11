@@ -196,7 +196,7 @@ public class DishController {
         dishDtoList =(List<DishDto>) redisTemplate.opsForValue().get(key);
 
         if(dishDtoList!=null){
-            //如果存在 直接返回 无需查询数据库
+            //如果存在 直接返回 无需查询数据库/
             return R.success(dishDtoList);
         }
 

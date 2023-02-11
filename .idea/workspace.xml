@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="使用Redis缓存短信验证码和菜品信息">
+    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="项目的demo 后续会进行优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/YoutuanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/YoutuanApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/common/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/common/R.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/DishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/DishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/SetmealController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/controller/SetmealController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/DishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/DishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/impl/DishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lz/youtuan/service/impl/DishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/YoutuanApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/YoutuanApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/common/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/common/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/DishController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/DishController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/SetmealController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/SetmealController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/DishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/DishService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/impl/DishServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lz/youtuan/service/impl/DishServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="v1.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -221,6 +209,10 @@
       <workItem from="1675751871524" duration="1381000" />
       <workItem from="1675834629335" duration="363000" />
       <workItem from="1675835033085" duration="7402000" />
+      <workItem from="1675993113053" duration="4868000" />
+      <workItem from="1676041928835" duration="776000" />
+      <workItem from="1676079863009" duration="2222000" />
+      <workItem from="1676092169108" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="项目的demo 后续会进行优化">
       <created>1675751607426</created>
