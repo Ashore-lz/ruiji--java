@@ -1,0 +1,14 @@
+<changelist name="在进行检出之前于_2023_2_9_11_19_取消提交了变更_[Default_Changelist]" date="1675912852647" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行检出之前于_2023_2_9_11_19_取消提交了变更_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行检出之前于 2023/2/9 11:19 取消提交了变更 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/lz/youtuan/controller/DishController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/lz/youtuan/controller/DishController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行检出之前于_2023_2_9_11_19_取消提交了变更_[Default_Changelist]/DishController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/lz/youtuan/controller/UserController.class" />
+    <option name="AFTER_PATH" value="target/classes/com/lz/youtuan/controller/UserController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行检出之前于_2023_2_9_11_19_取消提交了变更_[Default_Changelist]/UserController.class" />
+  </binary>
+</changelist>
