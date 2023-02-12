@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="修改">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f7260be5-13fa-4638-8f64-c92ee78860bc" name="Default Changelist" comment="项目的demo 后续会进行优化">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,19 +98,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.YoutuanApplication">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringDataRedisTest.testCommon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ruiji--java" />
       <extension name="coverage">
@@ -223,7 +210,6 @@
       <workItem from="1676079863009" duration="2222000" />
       <workItem from="1676092169108" duration="2539000" />
       <workItem from="1676123984110" duration="2422000" />
-      <workItem from="1676166626592" duration="4470000" />
     </task>
     <task id="LOCAL-00001" summary="项目的demo 后续会进行优化">
       <created>1675751607426</created>
@@ -239,28 +225,7 @@
       <option name="project" value="LOCAL" />
       <updated>1675754090393</updated>
     </task>
-    <task id="LOCAL-00003" summary="可部署的项目">
-      <created>1676183004525</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1676183004525</updated>
-    </task>
-    <task id="LOCAL-00004" summary="修改">
-      <created>1676187016654</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676187016655</updated>
-    </task>
-    <task id="LOCAL-00005" summary="修改">
-      <created>1676187230262</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676187230263</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,9 +258,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目的demo 后续会进行优化" />
     <MESSAGE value="使用Shaarding-JDBC实现程序的读写分离" />
-    <MESSAGE value="可部署的项目" />
-    <MESSAGE value="修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用Shaarding-JDBC实现程序的读写分离" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
