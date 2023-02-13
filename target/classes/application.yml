@@ -67,4 +67,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 youtuan:
-  path: /usr/local/img/
+  path: D:\img\
